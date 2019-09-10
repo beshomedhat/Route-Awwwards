@@ -1,0 +1,133 @@
+
+*
+{
+    transition: all 0.2s;
+}
+
+a
+{
+    text-decoration: none;
+}
+nav
+{
+    border-bottom: solid 1px #ddd;
+}
+
+nav form
+{
+    margin: 0px;
+}
+.secNav
+{
+    display: flex;
+    align-items: center;
+}
+
+.text
+{
+    padding-top: 20px;
+}
+.text p 
+{
+    font-size: 14px;
+}
+.text p a
+{
+    position: relative;
+    z-index: 6;
+    color: #49c5b6;
+    font-weight: 600;
+}
+.text p a:hover
+{
+    color: black;
+}
+.text .container .row .col-1
+{
+    position: relative;
+    font-size: 14px;
+}
+.empty .container .text .container .row .col-1:hover .polygon
+{
+    bottom: -35px;
+}
+.text .container .row .col-1 img
+{
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.text .container .row .col-1 img:hover
+{
+    opacity: 0.6;
+    transition:  0.5s;
+}
+
+.polygon
+{
+    transition: bottom 1s;
+    text-align: center;
+    opacity: 0;
+    padding-top: 30px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 54% 75%, 49% 81%, 43% 75%, 0% 75%);
+    height: 300px;
+    width: 170px;
+    position: absolute;
+    left: -67px;
+    bottom: -25px;
+    background-color:#ebebeb;
+}
+
+.polygon span p
+{
+    color: rgba(0,0,0,0.6);
+}
+.polygon a p
+{
+    color:black;
+    font-weight: 600;
+}
+.polygon a p:hover
+{
+    color: gray;
+}
+section
+{
+    background-color: #f5f5f5
+}
+#item
+{
+    background-color: white
+}
+.secNav button
+{
+    border-radius: 0;
+}
+.dropdown-menu
+{
+    position: absolute;
+    z-index: 999;
+}
+.dropdown
+{
+    height: 100%;
+}
+.menuOverlay
+{
+    opacity: 0;
+    position: absolute;
+    z-index: 666;
+    display: none;
+    height: 100%;
+}
+.dropdown-menu
+{
+     margin-top: 0px;
+}
+
+
+
+
+
+
+

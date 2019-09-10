@@ -1,0 +1,277 @@
+ /*---------------------------home----------------------------------------*/
+ .homeHeader
+ {
+     background-image: url(src\assets\127H.jpg);
+     height: 550px;
+     background-size: cover;
+ }
+ .homeHeaderInfo
+ {
+     color: white;
+     height: 100%;
+     background-color: rgba(0,0,0,0.6);
+ }
+ .homeHeaderContent
+ {
+     color: white;
+ }
+ .homeHeaderInfo h1
+ {
+     font-size: 45px;
+ }
+ .numbers .num
+ {
+     border-radius: 50%;
+     border: 2px solid;
+     
+ }
+ .membersBtn img
+ {
+     border-radius: 50%;
+     width: 25px;
+     height: 25px;;
+     margin-right: 1px;
+   }
+ .btn-collect
+ {
+     border-color: aqua;
+     background-color: transparent;
+ }
+ .btn-collect:hover
+ {
+     border-color: aqua;
+     background-color: rgba(0,0,0,0.6);
+ }
+ .home1
+ {
+     position: relative;
+ }
+ .homeDate
+ {
+     position: absolute;
+     top: 5%;
+     left: 5%;
+ }
+ .homeBtn
+ {
+     position: absolute;
+     bottom: 5%;
+     left: 5%;
+ }
+ .row
+ {
+     margin-left: 0;
+     margin-right: 0;
+ }
+ .members
+ {
+     position: relative;
+ }
+ .membersBtn
+ {
+     position: absolute;
+     bottom: 5%;
+     left: 5%;
+ }
+ /*-----------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Nixie+One|Raleway:200');
+ 
+ 
+ 
+ 
+ 
+ .display-container {
+   margin: auto;
+   display: flex;
+ }
+ 
+ .note-display {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 25px;
+ }
+ 
+ .circle {
+   position: relative;
+ }
+ 
+ .circle__svg {
+   transform: rotate(-90deg);
+ }
+ 
+ .circle__progress {
+   fill: none;
+   stroke-width: 3;
+   stroke-opacity: 0.3;
+   stroke-linecap: round;
+ }
+ 
+ .circle__progress--fill {
+   --initialStroke: 0;
+   --transitionDuration: 0;
+   stroke-opacity: 1;
+   stroke-dasharray: var(--initialStroke);
+   stroke-dashoffset: var(--initialStroke);
+   transition: stroke-dashoffset var(--transitionDuration) ease;
+ }
+ 
+ .note-display:nth-child(1) .circle__progress { stroke: #AAFF00; }
+ .note-display:nth-child(2) .circle__progress { stroke: #FF00AA; }
+ .note-display:nth-child(3) .circle__progress { stroke: #AA00FF; }
+ .note-display:nth-child(4) .circle__progress { stroke: #00AAFF; }
+ 
+ .percent {
+   width: 100%;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   font-weight: bold;
+   text-align: center;
+   line-height: 28px;
+   transform: translate(-50%, -50%);
+ }
+ 
+ .percent__int { font-size: 28px; }
+ .percent__dec { font-size: 12px; }
+ 
+ .label {
+   font-family: 'Raleway', serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   margin-top: 15px;
+ }
+ /*---------------------------------------------WINNERS------------------------------------------------------------*/
+ .winners
+ {
+   background-color: whitesmoke;
+ }
+ .win
+ {
+   background-color: white;
+ }
+ .winnersTitle
+ {
+   font-weight: bolder;
+ }
+ .winnersImg
+ {
+   position: relative;
+   overflow: hidden;
+ }
+ .winnersImg:hover .imgLayer
+ {
+   opacity: 1;
+ }
+ .winnersImg:hover img 
+ {
+   transform: scale(1.2,1.2)
+ }
+ .winnersImg img
+ {
+   transition: transform 1s;
+ }
+ .imgLayer
+ {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.6);
+   opacity: 0;
+   transition: opacity 1s;
+ }
+ .imgLayer button
+ {
+   border-radius: 50%;
+   border: 1px solid white;
+   float: right;
+   color: white;
+ }
+ .winnersIco
+ {
+   font-size: 12px;
+ }
+ .winnersIco img
+ {
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;;
+ }
+ .winnersIco button
+ {
+   font-size: 10px;
+   border-radius: 50%;
+   margin: 2px;
+ }
+ /*-----------------------------------------------------------------------------------*/
+ /*--------------------------------------nominees--------------------------------------------*/
+ .nominees
+ {
+   background-color: whitesmoke;
+ }
+ .win
+ {
+   background-color: white;
+ }
+ .nomineesTitle
+ {
+   font-weight: bolder;
+ }
+ .nomineesImg
+ {
+   position: relative;
+   overflow: hidden;
+ }
+ .nomineesImg:hover .imgLayer
+ {
+   opacity: 1;
+ }
+ .nomineesImg:hover img 
+ {
+   transform: scale(1.2,1.2)
+ }
+ .nomineesImg img
+ {
+   transition: transform 1s;
+ }
+ .imgLayer
+ {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0,0,0,0.6);
+   opacity: 0;
+   transition: opacity 1s;
+ }
+ .imgLayer button
+ {
+   border-radius: 50%;
+   border: 1px solid white;
+   float: right;
+   color: white;
+ }
+ .nomineesIco
+ {
+   font-size: 12px;
+ }
+ .nomineesIco img
+ {
+   border-radius: 50%;
+   width: 25px;
+   height: 25px;;
+ }
+ .nomineesIco button
+ {
+   font-size: 10px;
+   border-radius: 50%;
+   margin: 2px;
+ }
+ /*---------------------------------------------------------------------------------------*/
+ .resource 
+ {
+   font-weight: bold;
+ }

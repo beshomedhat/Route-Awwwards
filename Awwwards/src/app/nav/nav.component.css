@@ -1,0 +1,37 @@
+
+nav
+{
+    border-bottom: solid 1px #ddd;
+}
+/*---------------------------(header)------------------------------------*/
+.header
+{
+    background-color: whitesmoke;
+}
+.header p
+{
+    margin-bottom: 0px;
+}
+#submitBtn
+{
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+.login
+{
+    color: black
+}
+
+.login:hover
+{
+    color: royalblue;
+}
+
+
+/*---------------------------login/register--------------------------------------------*/
+.register
+{
+    cursor: pointer;
+    color: aqua;
+}

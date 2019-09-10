@@ -1,0 +1,149 @@
+      <!-------------------- HEADER----------------------------->
+      <div class="w-100 fixed-top">
+        <div class="header p-2">
+          <div class="row d-flex justify-content-between align-items-center">
+              <div class="col-md-4 py-1">
+                  <select class="language">
+                      <option value="volvo">English</option>
+                      <option value="saab">French</option>
+                      <option value="mercedes">Spanish</option>
+                    </select>
+              </div>
+              <div class="col-md-4 py-1">
+                  <form>
+                      <input class="form-control" type="search" placeholder="Search.." aria-label="Search">
+                  </form>
+              </div>
+              <div class="col-md-4 py-1">
+                  <div class="float-right">
+                  <span class="px-2 login" data-toggle="modal" style="cursor: pointer" data-target="#exampleModal">REGISTER / LOG IN</span>
+                  <button id="submitBtn" class="btn " routerLink="submit">SUBMIT YOUR SITE!</button>
+                  
+                      </div>
+              </div>
+          </div>
+      </div>
+    <!------------------------------------------------------->
+      
+    <!-------------------- nav ----------------------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+  <a class="navbar-brand" href="#">aWWWards</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="home" routerLinkActive="active">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="winners" routerLinkActive="active">Winners</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="nominees" routerLinkActive="active">Nominees</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="collections" routerLinkActive="active">Collections</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="professionalDierctory" routerLinkActive="active">Professional Dierctory</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="aboutUs" routerLinkActive="active">About Us</a>
+
+    </li>       
+  </ul>
+  </div>
+  </nav>
+
+</div>
+
+<div id="space" class="w-100 bg-danger"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content p-3">
+        <div class="modal-header">
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Sign in to continue </p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5">
+                <span>Not a member yet? </span>
+                <span class="register" data-toggle="modal" data-target="#exampleModal2" data-dismiss="modal">Register now</span>
+              </div>
+
+          </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+            <input class="form-control" placeholder="Enter your E-mail"/>
+            <input class="form-control my-2" placeholder="Enter your password"/>
+            <input type="checkbox"/>
+            <label class="p-1">Keep me logged in</label>
+            <div class="text-center">
+            <button class="btn btn-secondary my-2">LogIn now</button>
+          </div>
+            <a href="#">Forgot your password</a>
+        </div>
+        <div >
+            <p>Or sign in with</p>  
+          <div class="text-center">
+              
+                <button class="btn btn-primary ">Facebook</button>
+                <button class="btn btn-light mx-2">Google</button>
+                <button class="btn btn-outline-info">Twitter</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="row">
+                <div class="col-sm-5">
+                  <p>Register with</p>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-5">
+                    <span>AreyouAmember?</span>
+                    <span class="register" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login now</span>
+                  </div>
+    
+              </div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body m-auto">
+              <div>
+                <button class="btn btn-primary ">Facebook</button>
+                <button class="btn btn-light mx-2">Google</button>
+                <button class="btn btn-outline-info">Twitter</button>
+            </div>
+            </div>
+            <div class="p-2">
+              <div class="text-center">
+                <p>Or with your E-mail</p>
+                <input class="form-control" placeholder="Enter your name"/>
+                <input class="form-control my-2" placeholder="Enter your E-mail"/>
+                <input class="form-control" placeholder="Enter your password"/>
+                <input class="form-control my-2" placeholder="re-password"/>
+                <input type="checkbox"/>
+                <label class="p-1"> I accept the Terms and Conditions and Privacy Policy</label>
+                <button class="btn btn-secondary my-2">REGISTER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

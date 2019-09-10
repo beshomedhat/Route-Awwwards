@@ -1,0 +1,26 @@
+.jobs
+{
+    background-color: whitesmoke;
+}
+.jobsInfo
+{
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin: 5px 0px;
+}
+.jobsInfo:hover
+{
+    background-color: rgb(230, 223, 223);
+}
+.jobsInfo img
+{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;;
+}
+.jobsInfo span
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
